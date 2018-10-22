@@ -35,7 +35,9 @@ void permute(char *a, int l, int r)
 /* Driver program to test above functions */
 int main()
 {
-    char str[] = "ABC";
+    char str[50];
+    printf("\n Enter the string");
+    gets(str);
     int n = strlen(str);
     permute(str, 0, n-1);
     return 0;
